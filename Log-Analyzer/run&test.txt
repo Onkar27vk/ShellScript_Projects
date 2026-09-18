@@ -1,0 +1,4 @@
+chmod +x log_analyzer.sh
+./log_analyzer.sh
+ls -lh
+cat log_report_*.txt
