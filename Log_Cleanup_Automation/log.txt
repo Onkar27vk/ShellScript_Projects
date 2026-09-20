@@ -1,0 +1,38 @@
+2026-09-20 09:12:04 INFO  Application started | app=MyApp version=2.4.1
+2026-09-20 09:12:08 INFO  Database connection established | host=db01
+2026-09-20 09:15:22 INFO  User login successful | user_id=1024
+2026-09-20 10:03:45 INFO  API request completed | endpoint=/api/orders | status=200 | duration=124ms
+2026-09-20 11:27:19 WARN  API response slow | endpoint=/api/customers | duration=2150ms
+2026-09-20 14:18:33 ERROR Database query failed | query_id=Q8841 | error="Connection timeout"
+
+2026-09-19 08:44:12 INFO  Application started | app=MyApp version=2.4.1
+2026-09-19 09:02:17 INFO  User login successful | user_id=1018
+2026-09-19 12:31:44 INFO  File upload completed | file=report.pdf | size=4.2MB
+2026-09-19 16:55:02 WARN  Disk usage above threshold | usage=82%
+
+2026-09-18 07:51:09 INFO  Application started | app=MyApp version=2.4.1
+2026-09-18 10:22:41 INFO  API request completed | endpoint=/api/products | status=200 | duration=98ms
+2026-09-18 13:47:29 ERROR Authentication failed | user_id=1042 | reason="Invalid password"
+
+2026-09-17 09:11:32 INFO  Application started | app=MyApp version=2.4.0
+2026-09-17 09:45:16 INFO  User login successful | user_id=1007
+2026-09-17 15:12:08 INFO  Scheduled job completed | job=DailyBackup | duration=843s
+
+2026-09-16 08:33:51 INFO  Application started | app=MyApp version=2.4.0
+2026-09-16 11:04:27 WARN  Memory usage high | usage=78%
+2026-09-16 18:21:42 INFO  Application shutdown | reason=ScheduledRestart
+
+2026-09-15 09:05:13 INFO  Application started | app=MyApp version=2.4.0
+2026-09-15 10:19:37 INFO  API request completed | endpoint=/api/orders | status=200 | duration=143ms
+2026-09-15 14:28:56 ERROR External service unavailable | service=PaymentGateway | retry=1
+2026-09-15 14:29:12 INFO  External service recovered | service=PaymentGateway
+
+2026-09-14 08:47:03 INFO  Application started | app=MyApp version=2.4.0
+2026-09-14 09:17:44 INFO  Database connection established | host=db01
+2026-09-14 13:38:21 INFO  Scheduled job completed | job=DataSync | records=18452
+2026-09-14 17:42:09 WARN  API rate limit approaching | endpoint=/api/search | usage=91%
+
+2026-09-13 09:01:18 INFO  Application started | app=MyApp version=2.4.0
+2026-09-13 10:42:31 INFO  User login successful | user_id=1033
+2026-09-13 12:15:44 INFO  API request completed | endpoint=/api/orders | status=200 | duration=117ms
+2026-09-13 16:52:07 ERROR Database query failed | query_id=Q8712 | error="Deadlock detected"
